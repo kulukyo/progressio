@@ -1,4 +1,4 @@
-# progressio
+# progressio [![Build Status](https://travis-ci.com/kulukyo/progressio.svg?branch=master)](https://travis-ci.com/kulukyo/progressio)
 Make progress of io.Reader and io.Writer observable.
 
 ## Features
