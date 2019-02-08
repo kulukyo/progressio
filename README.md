@@ -35,7 +35,7 @@ $ go get -u github.com/kulukyo/progressio
 
     // consumes progress in another goroutine
     go func() {
-       for p := range readProgress {
+       for p := range progress {
            fmt.Printf("reading: %v\n", p)
        }
     }()
